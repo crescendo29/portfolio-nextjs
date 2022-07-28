@@ -13,7 +13,7 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            // I am not your normal developer
+            / / I am not your normal developer
           </p>
           <p className="py-2 text-gray-600">
             I have spent the last 10 years working
@@ -33,10 +33,10 @@ const About = () => {
             JavaScript and was even more enthused
             with making websites interactive. I
             then started some projects for my
-            friends and family's businesses. I am
-            now spending my time building projects
-            with React JS, Svelte and learning new
-            technologies.
+            friends and family&apos;s businesses.
+            I am now spending my time building
+            projects with React JS, Svelte and
+            learning new technologies.
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out some of my latest projects
