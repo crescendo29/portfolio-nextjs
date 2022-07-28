@@ -15,6 +15,7 @@ import {
 } from "react-icons/fa";
 import { BsPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import navLogo from "../public/assets/navLogo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -69,7 +70,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             className="rounded-full"
-            src="/../public/assets/navLogo.png"
+            src={navLogo}
             alt="navLogo"
             width="75"
             height="50"
@@ -138,7 +139,7 @@ const Navbar = () => {
               <Link href="/">
                 <Image
                   className="rounded-full"
-                  src="/../public/assets/navLogo.png"
+                  src={navLogo}
                   width="80"
                   height="45"
                   alt="logo"
